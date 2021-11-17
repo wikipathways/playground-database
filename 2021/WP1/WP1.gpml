@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="Test" organism="Homo sapiens" version="20211117">
+  <Xref identifier="WP1" dataSource="wikipathways"/>
+	<Authors>
+		<Author name="mkutmon" username="Martina Kutmon" order="1">
+			<Xref identifier="0000" dataSource="orcid"/>
+		</Author>
+	</Authors>
+  <Graphics boardWidth="1115.0" boardHeight="329.5" />
+  <DataNodes>
+    <DataNode elementId="b7ccd" textLabel="fatty acid" type="Metabolite">
+      <Xref identifier="CHEBI:35366" dataSource="chebi" />
+      <Graphics centerX="313.65656565656616" centerY="107.0000000000001" width="90.0" height="25.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="c0c56" textLabel="TP53" type="GeneProduct">
+      <Xref identifier="ENSG00000141510" dataSource="ensembl" />
+      <Graphics centerX="223.65656565656607" centerY="54.97979797979798" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="e329f" textLabel="glucose" type="Metabolite">
+      <Xref identifier="CHEBI:4167" dataSource="chebi" />
+      <Graphics centerX="134.16161616161622" centerY="107.0000000000001" width="90.0" height="25.0" textColor="0000ff" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="0000ff" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="c7ae2">
+      <Waypoints>
+        <Point elementId="fde64" arrowHead="Undirected" x="179.16161616161622" y="107.0000000000001" elementRef="e329f" relX="1.0" relY="0.0" />
+        <Point elementId="a22fe" arrowHead="Conversion" x="268.65656565656616" y="107.0000000000001" elementRef="b7ccd" relX="-1.0" relY="0.0" />
+        <Anchor elementId="ca6cb" position="0.5" shapeType="None" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+    <Interaction elementId="aa730">
+      <Waypoints>
+        <Point elementId="a8317" arrowHead="Undirected" x="223.65656565656604" y="67.47979797979798" elementRef="c0c56" relX="0.0" relY="1.0" />
+        <Point elementId="f91fe" arrowHead="Catalysis" x="223.9090909090912" y="107.0000000000001" elementRef="ca6cb" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+      <CitationRef elementRef="b85" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="b85">
+      <Xref identifier="12345" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>
