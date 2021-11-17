@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="Test2" organism="Mus musculus" version="20211117">
+  <Xref identifier="WP2" dataSource="wikipathways"/>
+	<Authors>
+		<Author name="mkutmon" username="Martina Kutmon" order="1">
+			<Xref identifier="0000" dataSource="orcid"/>
+		</Author>
+	</Authors>
+  <Graphics boardWidth="382.5" boardHeight="144.0" />
+  <DataNodes>
+    <DataNode elementId="a6bef" textLabel="BRCA2" type="GeneProduct">
+      <Xref identifier="ENSG00000139618" dataSource="ensembl" />
+      <States>
+        <State elementId="f97e5" textLabel="P" type="Undefined">
+          <Graphics relX="1.0" relY="-1.0" width="15.0" height="15.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Oval" />
+        </State>
+      </States>
+      <Graphics centerX="300.0" centerY="94.0" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+    </DataNode>
+    <DataNode elementId="e11ff" textLabel="BRCA1" type="GeneProduct">
+      <Xref identifier="ENSG00000012048" dataSource="ensembl" />
+      <Graphics centerX="120.0" centerY="94.0" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="ffffff" shapeType="Rectangle" zOrder="32768" />
+      <CitationRef elementRef="efb" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="c2b62">
+      <Waypoints>
+        <Point elementId="a5478" arrowHead="Undirected" x="165.0" y="94.0" elementRef="e11ff" relX="1.0" relY="0.0" />
+        <Point elementId="e8e3f" arrowHead="Stimulation" x="255.0" y="94.0" elementRef="a6bef" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" zOrder="12288" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="efb">
+      <Xref identifier="534452" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>
