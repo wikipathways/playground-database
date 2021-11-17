@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Test2" Version="20211117" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Test2" Version="20211117" Organism="Mus musculus" Author="mkutmon">
   <Graphics BoardWidth="608.5911602209944" BoardHeight="225.4343155310006" />
   <DataNode TextLabel="Product" GraphId="a2edc" Type="Metabolite">
     <Graphics CenterX="533.5911602209944" CenterY="182.9343155310006" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
