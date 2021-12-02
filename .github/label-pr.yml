@@ -1,0 +1,8 @@
+- regExp: ".*\\.(csv|tsv)+$"
+  labels: ["data"]
+- regExp: ".*\\.txt+$"
+  labels: ["text"]
+- regExp: ".*\\.gpml+$"
+  labels: ["pathway", "critical"]
+- regExp: ".*\\.md+$"
+  labels: ["markdown"]
