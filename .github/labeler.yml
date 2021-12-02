@@ -1,7 +1,7 @@
 pathway file:
-- pathway/**/*
+- pathways/**/*
 gpml:
-- pathway/**/*.gpml
+- pathways/**/*.gpml
 text:
 - any: ['*.txt']
 markdown:
