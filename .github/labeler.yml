@@ -3,6 +3,6 @@ pathway file:
 GPML:
 - pathway/**/*.gpml
 text:
-- any: '*.txt'
+- any: ['*.txt']
 markdown:
-- any: '*.md'
+- any: ['*.md']
