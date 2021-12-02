@@ -1,5 +1,3 @@
-- regExp: ".*\\.(csv|tsv)+$"
-  labels: ["data"]
 - regExp: ".*\\.txt+$"
   labels: ["text"]
 - regExp: ".*\\.gpml+$"
