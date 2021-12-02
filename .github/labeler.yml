@@ -1,6 +1,8 @@
-- regExp: ".*\\.txt+$"
-  labels: ["text"]
-- regExp: ".*\\.gpml+$"
-  labels: ["pathway", "critical"]
-- regExp: ".*\\.md+$"
-  labels: ["markdown"]
+pathway file:
+- pathway/**/*
+GPML:
+- pathway/**/*.gpml
+text:
+- any: '*.txt'
+markdown:
+- any: '*.md'
