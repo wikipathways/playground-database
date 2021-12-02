@@ -40,4 +40,4 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rubinstein MH</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
-</Pathway>
+</Pathway>  
