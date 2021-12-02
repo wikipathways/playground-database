@@ -1,6 +1,6 @@
 pathway file:
 - pathway/**/*
-GPML:
+gpml:
 - pathway/**/*.gpml
 text:
 - any: ['*.txt']
