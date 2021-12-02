@@ -1,8 +1,12 @@
 pathway file:
-- pathways/**/*
+- 'pathways/**/*'
+root file:
+- '*'
 gpml:
-- pathways/**/*.gpml
+- 'pathways/**/*.gpml'
 text:
-- any: ['*.txt']
+- '**/*.txt'
 markdown:
-- any: ['*.md']
+- '**/*.md'
+data:
+- any: ['**/*.tsv','**/*.csv']
